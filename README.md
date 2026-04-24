@@ -6,20 +6,20 @@ A curated collection of bioinformatics tools for **bacterial genomics, microbiom
 
 # 📌 Table of Contents
 
-- Data Downloading  
-- Data Processing  
-- Sequence Processing  
-- Sequence Alignment  
-- Assembly  
-- File Utilities  
-- Genome Quality & Typing  
-- Annotation  
-- Phylogenetics  
-- Structural Variation  
-- RNA-seq  
-- Microbiome  
-- Visualization  
-- Databases  
+- [1. Data Downloading](#1-data-downloading)
+- [2. Data Processing](#2-data-processing)
+- [3. Sequence Processing (QC & Trimming)](#3-sequence-processing-qc--trimming)
+- [4. Sequence Alignment](#4-sequence-alignment)
+- [5. Assembly](#5-assembly)
+- [6. File Utilities](#6-file-utilities)
+- [7. Genome Quality & Typing](#7-genome-quality--typing)
+- [8. Annotation](#8-annotation)
+- [9. Phylogenetics & Pangenome](#9-phylogenetics--pangenome)
+- [10. Structural Variation (SV)](#10-structural-variation-sv)
+- [11. RNA-seq Analysis](#11-rna-seq-analysis)
+- [12. Microbiome Analysis](#12-microbiome-analysis)
+- [13. Visualization](#13-visualization)
+- [14. Databases](#14-databases)
 
 ---
 
