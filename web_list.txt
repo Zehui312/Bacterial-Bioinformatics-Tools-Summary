@@ -1,0 +1,91 @@
+# Downloading
+
+https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/
+https://github.com/ncbi/sra-tools
+https://www.ncbi.nlm.nih.gov/books/NBK179288/
+
+
+# Data_Processing
+https://github.com/shenwei356/csvtk
+
+# Sequence_Processing
+https://github.com/opengene/fastp
+https://github.com/MultiQC/MultiQC
+https://github.com/marcelm/cutadapt
+https://github.com/rrwick/Porechop
+https://github.com/shenwei356/seqkit
+https://github.com/lh3/seqtk
+https://github.com/raymondkiu/sequence-stats
+https://github.com/nanoporetech/dorado
+https://github.com/wdecoster/chopper
+https://github.com/rrwick/filtlong
+
+# Sequence Alignment
+https://github.com/BenLangmead/bowtie2
+https://github.com/lh3/bwa
+https://github.com/lh3/minimap2
+https://github.com/bwa-mem2/bwa-mem2
+https://github.com/bbuchfink/diamond
+https://github.com/mummer4/mummer
+
+# File Utilities
+https://github.com/samtools/samtools
+https://github.com/samtools/bcftools
+
+# Assembly
+https://github.com/tseemann/shovill
+https://github.com/lh3/miniasm
+https://github.com/mikolmogorov/Flye
+https://github.com/nanoporetech/medaka
+https://github.com/rrwick/Bandage
+
+# check
+https://github.com/ecogenomics/checkm
+https://github.com/marbl/Mash
+https://github.com/ParBLiSS/FastANI
+https://github.com/widdowquinn/pyani
+https://github.com/tseemann/mlst.git
+
+# Annotation
+https://github.com/tseemann/prokka
+https://github.com/oschwengers/bakta
+
+#Phylogenetic tree
+https://pangenome.org/
+https://iqtree.github.io/
+https://github.com/tseemann/snippy
+https://github.com/sanger-pathogens/Roary
+https://itol.embl.de/
+
+#Structural Variation
+https://github.com/fritzsedlazeck/sniffles
+https://github.com/aleixcanalda/miniwalk
+https://github.com/eldariont/svim-asm
+
+#RNA seq
+https://subread.sourceforge.net/
+https://github.com/thelovelab/DESeq2
+https://github.com/CGATOxford/UMI-tools
+https://satijalab.org/seurat/
+
+#Microbiome
+https://github.com/DerrickWood/kraken2/wiki
+https://www.ccb.jhu.edu/software/centrifuge/
+https://github.com/biobakery/kneaddata
+https://github.com/biobakery/metaphlan
+https://github.com/biobakery/humann
+https://github.com/voutcn/MEGAHIT
+https://github.com/qiime2
+https://github.com/SegataLab/lefse
+
+
+#Visualization
+https://github.com/igvteam/igv
+https://circos.ca/
+https://cytoscape.org/
+https://fbreitwieser.shinyapps.io/pavian/
+https://alitvteam.github.io/AliTV/d3/AliTV.html
+
+#Dataset
+https://www.arb-silva.de/
+https://www.ebi.ac.uk/metagenomics

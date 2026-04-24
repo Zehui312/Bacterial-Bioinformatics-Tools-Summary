@@ -1,37 +1,265 @@
 # 🧫 Bacterial Bioinformatics Tools Summary
 
-A curated and structured summary of commonly used tools for bacterial genomics, microbiome analysis, and transcriptomics. This repository serves as a quick reference for researchers working in microbial sequencing and bioinformatics.
+A curated collection of bioinformatics tools for **bacterial genomics, microbiome analysis, and transcriptomics**.
 
 ---
 
-## 📌 Table of Contents
+# 📌 Table of Contents
 
-- [Overview](#overview)
-- [Workflow](#workflow)
-- [Genome Assembly & QC](#genome-assembly--qc)
-- [Genome Annotation](#genome-annotation)
-- [Taxonomic Classification](#taxonomic-classification)
-- [Functional Profiling](#functional-profiling)
-- [Comparative Genomics](#comparative-genomics)
-- [Structural Variation](#structural-variation)
-- [RNA-seq Analysis](#rna-seq-analysis)
-- [Installation](#installation)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
-
----
-
-## 🧠 Overview
-
-Bacterial bioinformatics involves multiple analytical steps, from raw sequencing data processing to biological interpretation. This repository summarizes widely used tools and their applications across:
-
-- Genome assembly  
-- Functional annotation  
-- Microbial classification  
-- Comparative genomics  
-- Structural variation analysis  
-- Transcriptomics  
+- Data Downloading  
+- Data Processing  
+- Sequence Processing  
+- Sequence Alignment  
+- Assembly  
+- File Utilities  
+- Genome Quality & Typing  
+- Annotation  
+- Phylogenetics  
+- Structural Variation  
+- RNA-seq  
+- Microbiome  
+- Visualization  
+- Databases  
 
 ---
 
-## 🔬 Workflow
+# 1. Data Downloading
+
+- **NCBI Datasets**  
+  👉 Download genome assemblies and metadata  
+  🔗 https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/
+
+- **SRA Toolkit**  
+  👉 Download sequencing data from SRA  
+  🔗 https://github.com/ncbi/sra-tools
+
+- **Entrez Direct (EDirect)**  
+  👉 Query NCBI databases via command line  
+  🔗 https://www.ncbi.nlm.nih.gov/books/NBK179288/
+
+---
+
+# 2. Data Processing
+
+- **csvtk**  
+  👉 High-performance CSV/TSV processing toolkit  
+  🔗 https://github.com/shenwei356/csvtk
+
+---
+
+# 3. Sequence Processing (QC & Trimming)
+
+- **fastp** – QC + trimming  
+  🔗 https://github.com/opengene/fastp  
+
+- **MultiQC** – QC report aggregation  
+  🔗 https://github.com/MultiQC/MultiQC  
+
+- **cutadapt** – adapter trimming  
+  🔗 https://github.com/marcelm/cutadapt  
+
+- **Porechop** – ONT adapter trimming  
+  🔗 https://github.com/rrwick/Porechop  
+
+- **seqkit** – FASTA/Q toolkit  
+  🔗 https://github.com/shenwei356/seqkit  
+
+- **seqtk** – lightweight sequence processing  
+  🔗 https://github.com/lh3/seqtk  
+
+- **sequence-stats** – sequence statistics  
+  🔗 https://github.com/raymondkiu/sequence-stats  
+
+- **Dorado** – ONT basecalling & demultiplexing  
+  🔗 https://github.com/nanoporetech/dorado  
+
+- **chopper** – long-read filtering  
+  🔗 https://github.com/wdecoster/chopper  
+
+- **Filtlong** – high-quality read selection  
+  🔗 https://github.com/rrwick/filtlong  
+
+---
+
+# 4. Sequence Alignment
+
+- **Bowtie2** – short-read alignment  
+  🔗 https://github.com/BenLangmead/bowtie2  
+
+- **BWA** – standard short-read mapper  
+  🔗 https://github.com/lh3/bwa  
+
+- **BWA-MEM2** – faster BWA  
+  🔗 https://github.com/bwa-mem2/bwa-mem2  
+
+- **minimap2** – long-read alignment  
+  🔗 https://github.com/lh3/minimap2  
+
+- **DIAMOND** – protein alignment  
+  🔗 https://github.com/bbuchfink/diamond  
+
+- **MUMmer** – genome alignment  
+  🔗 https://github.com/mummer4/mummer  
+
+---
+
+# 5. Assembly
+
+- **Shovill** – bacterial genome assembly  
+  🔗 https://github.com/tseemann/shovill  
+
+- **Miniasm** – ultra-fast long-read assembly  
+  🔗 https://github.com/lh3/miniasm  
+
+- **Flye** – long-read assembler  
+  🔗 https://github.com/mikolmogorov/Flye  
+
+- **Medaka** – ONT polishing  
+  🔗 https://github.com/nanoporetech/medaka  
+
+- **Bandage** – assembly graph visualization  
+  🔗 https://github.com/rrwick/Bandage  
+
+---
+
+# 6. File Utilities
+
+- **samtools** – BAM processing  
+  🔗 https://github.com/samtools/samtools  
+
+- **bcftools** – VCF processing  
+  🔗 https://github.com/samtools/bcftools  
+
+---
+
+# 7. Genome Quality & Typing
+
+- **CheckM** – genome quality assessment  
+  🔗 https://github.com/ecogenomics/checkm  
+
+- **Mash** – genome distance estimation  
+  🔗 https://github.com/marbl/Mash  
+
+- **FastANI** – ANI calculation  
+  🔗 https://github.com/ParBLiSS/FastANI  
+
+- **pyani** – ANI toolkit  
+  🔗 https://github.com/widdowquinn/pyani  
+
+- **MLST** – strain typing  
+  🔗 https://github.com/tseemann/mlst  
+
+---
+
+# 8. Annotation
+
+- **Prokka** – rapid genome annotation  
+  🔗 https://github.com/tseemann/prokka  
+
+- **Bakta** – modern annotation tool  
+  🔗 https://github.com/oschwengers/bakta  
+
+---
+
+# 9. Phylogenetics & Pangenome
+
+- **Panaroo** – pangenome analysis  
+  🔗 https://pangenome.org/  
+
+- **IQ-TREE** – phylogenetic tree inference  
+  🔗 https://iqtree.github.io/  
+
+- **Snippy** – SNP calling pipeline  
+  🔗 https://github.com/tseemann/snippy  
+
+- **Roary** – pangenome pipeline  
+  🔗 https://github.com/sanger-pathogens/Roary  
+
+- **iTOL** – tree visualization  
+  🔗 https://itol.embl.de/  
+
+---
+
+# 10. Structural Variation (SV)
+
+- **Sniffles** – long-read SV detection  
+  🔗 https://github.com/fritzsedlazeck/sniffles  
+
+- **Miniwalk** – graph-based SV analysis  
+  🔗 https://github.com/aleixcanalda/miniwalk  
+
+- **SVIM-asm** – assembly-based SV detection  
+  🔗 https://github.com/eldariont/svim-asm  
+
+---
+
+# 11. RNA-seq Analysis
+
+- **featureCounts** – read counting  
+  🔗 https://subread.sourceforge.net/  
+
+- **DESeq2** – differential expression  
+  🔗 https://github.com/thelovelab/DESeq2  
+
+- **UMI-tools** – UMI processing  
+  🔗 https://github.com/CGATOxford/UMI-tools  
+
+- **Seurat** – single-cell analysis  
+  🔗 https://satijalab.org/seurat/  
+
+---
+
+# 12. Microbiome Analysis
+
+- **Kraken2** – taxonomic classification  
+  🔗 https://github.com/DerrickWood/kraken2/wiki  
+
+- **Centrifuge** – classification with low memory  
+  🔗 https://www.ccb.jhu.edu/software/centrifuge/  
+
+- **Kneaddata** – host removal  
+  🔗 https://github.com/biobakery/kneaddata  
+
+- **MetaPhlAn** – marker-based profiling  
+  🔗 https://github.com/biobakery/metaphlan  
+
+- **HUMAnN** – functional profiling  
+  🔗 https://github.com/biobakery/humann  
+
+- **MEGAHIT** – metagenome assembly  
+  🔗 https://github.com/voutcn/MEGAHIT  
+
+- **QIIME2** – microbiome platform  
+  🔗 https://github.com/qiime2  
+
+- **LEfSe** – biomarker discovery  
+  🔗 https://github.com/SegataLab/lefse  
+
+---
+
+# 13. Visualization
+
+- **IGV** – genome browser  
+  🔗 https://github.com/igvteam/igv  
+
+- **Circos** – circular genome plots  
+  🔗 https://circos.ca/  
+
+- **Cytoscape** – network visualization  
+  🔗 https://cytoscape.org/  
+
+- **Pavian** – metagenomics visualization  
+  🔗 https://fbreitwieser.shinyapps.io/pavian/  
+
+- **AliTV** – genome comparison  
+  🔗 https://alitvteam.github.io/AliTV/d3/AliTV.html  
+
+---
+
+# 14. Databases
+
+- **SILVA** – rRNA database  
+  🔗 https://www.arb-silva.de/  
+
+- **EBI Metagenomics** – microbiome datasets  
+  🔗 https://www.ebi.ac.uk/metagenomics  
