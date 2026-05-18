@@ -20,7 +20,7 @@ A curated collection of bioinformatics tools for **bacterial genomics, microbiom
 - [12. Microbiome Analysis](#12-microbiome-analysis)
 - [13. Visualization](#13-visualization)
 - [14. Databases](#14-databases)
-
+- [15. Mobile Genetic Elements](#15-mobile-genetic-elements--defense-systems)
 ---
 
 # 1. Data Downloading
@@ -263,3 +263,17 @@ A curated collection of bioinformatics tools for **bacterial genomics, microbiom
 
 - **EBI Metagenomics** – microbiome datasets  
   🔗 https://www.ebi.ac.uk/metagenomics  
+
+
+# 15. Mobile Genetic Elements & Defense Systems
+
+- **CRISPRCasFinder** – identification of CRISPR arrays and Cas proteins  
+  🔗 https://github.com/dcouvin/CRISPRCasFinder  
+
+- **MacSyFinder** – detection of molecular systems using gene models (CRISPR-Cas, secretion systems, defense systems, etc.)  
+  🔗 https://github.com/gem-pasteur/macsyfinder  
+
+- **PhiSpy** – prophage prediction in bacterial genomes  
+  🔗 https://github.com/linsalrob/PhiSpy  
+
+---
